@@ -1,0 +1,162 @@
+@import '_variables';
+
+// App Header Styles
+
+.menu-btn {
+  color: $blue_color;
+  font-family: $fontTapestry;
+
+  .v-btn {
+    font-size: $font-size-menu * 0.8;
+  }
+}
+
+.router-link-active {
+  .v-btn__content {
+    color: $grey_color;
+  }
+}
+
+.v-toolbar-title__placeholder {
+  color: $deep-blue_color;
+  font-family: $fontNiconne;
+  font-size: $font-size-menu;
+}
+
+.v-list-item-title {
+  font-family: $fontTapestry;
+  font-size: $font-size-menu * 0.8 !important;
+  color: $deep-blue_color;
+  line-height: $font-size-menu * 2 !important;
+}
+
+
+// App Footer Styles
+
+.footer-text {
+  font-family: $fontNiconne;
+  font-size: $font-size-text;
+  color: $grey_color;
+}
+
+.footer {
+  background: $background !important;
+}
+
+// Hero Page
+
+.introduction div {
+  font-family: $fontTapestry !important;
+  color: $deep-blue_color;
+}
+
+.introduction p {
+  font-family: $fontNiconne !important;
+  color: $grey_color;
+}
+
+.mdi-cloud-download {
+  color: $grey_color;
+  font-size: $font-size-menu;
+}
+
+.buttons {
+  .v-btn__content, a {
+    color: $grey_color;
+    font-size: $font-size-text * 0.8;
+  }
+
+  .v-btn {
+    background: $background !important;
+  }
+
+  .v-btn.v-btn--density-default {
+    height: 50px;
+  }
+}
+
+.hero-text {
+  color: $grey_color;
+  font-family: $fontCrimson !important;
+}
+
+
+// Skills Page
+
+.title {
+  font-family: $fontNiconne !important;
+  color: $grey_color;
+  font-size: $font-size-menu * 1.3;
+  font-weight: normal;
+}
+
+
+.subtitle {
+  font-family: $fontTapestry !important;
+  color: $grey_color;
+  font-size: $font-size-menu * 1.1;
+  font-weight: normal;
+}
+
+.skills {
+  h4, h6 {
+    font-family: $fontTapestry !important;
+    color: $grey_color;
+    font-weight: normal;
+  }
+}
+
+// About Me Page
+.about_me {
+  h4 {
+    font-family: $fontTapestry !important;
+    font-weight: normal;
+    color: $grey_color;
+  }
+
+  span, p, ul {
+    font-family: $fontCrimson !important;
+    color: $grey_color;
+  }
+}
+
+// Portfolio Page
+.portfolio {
+  .v-btn, a {
+    font-family: $fontTapestry;
+    color: $deep-blue_color;
+  }
+
+  .v-card-title {
+    font-family: $fontTapestry;
+  }
+
+  .v-card-subtitle {
+    font-family: $fontCrimson !important;
+    color: $deep-blue_color;
+  }
+
+  .v-card-text {
+    .title-portfolio {
+      font-family: $fontTapestry !important;
+      color: $grey_color;
+    }
+
+    .text-portfolio {
+      font-family: $fontCrimson;
+      color: $grey_color;
+    }
+  }
+
+  .v-card-actions {
+    color: $deep-blue_color;
+  }
+}
+
+// Contacts Page
+.contacts p {
+  font-family: $fontTapestry !important;
+  color: $grey_color;
+}
+
+

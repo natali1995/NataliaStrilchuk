@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Tapestry&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Niconne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
+.menu-btn {
+  color: #66c7e5;
+  font-family: "Tapestry", cursive;
+}
+.menu-btn .v-btn {
+  font-size: 1.2rem;
+}
+
+.router-link-active .v-btn__content {
+  color: #4b4c5f;
+}
+
+.v-toolbar-title__placeholder {
+  color: #4f55f5;
+  font-family: "Niconne", cursive;
+  font-size: 1.5rem;
+}
+
+.v-list-item-title {
+  font-family: "Tapestry", cursive;
+  font-size: 1.2rem !important;
+  color: #4f55f5;
+  line-height: 3rem !important;
+}
+
+.footer-text {
+  font-family: "Niconne", cursive;
+  font-size: 1.2rem;
+  color: #4b4c5f;
+}
+
+.footer {
+  background: linear-gradient(to left, #4f55f5, rgba(102, 199, 229, 0.46)) !important;
+}
+
+.introduction div {
+  font-family: "Tapestry", cursive !important;
+  color: #4f55f5;
+}
+
+.introduction p {
+  font-family: "Niconne", cursive !important;
+  color: #4b4c5f;
+}
+
+.mdi-cloud-download {
+  color: #4b4c5f;
+  font-size: 1.5rem;
+}
+
+.buttons .v-btn__content, .buttons a {
+  color: #4b4c5f;
+  font-size: 0.96rem;
+}
+.buttons .v-btn {
+  background: linear-gradient(to left, #4f55f5, rgba(102, 199, 229, 0.46)) !important;
+}
+.buttons .v-btn.v-btn--density-default {
+  height: 50px;
+}
+
+.hero-text {
+  color: #4b4c5f;
+  font-family: "Crimson Text", serif !important;
+}
+
+.title {
+  font-family: "Niconne", cursive !important;
+  color: #4b4c5f;
+  font-size: 1.95rem;
+  font-weight: normal;
+}
+
+.subtitle {
+  font-family: "Tapestry", cursive !important;
+  color: #4b4c5f;
+  font-size: 1.65rem;
+  font-weight: normal;
+}
+
+.skills h4, .skills h6 {
+  font-family: "Tapestry", cursive !important;
+  color: #4b4c5f;
+  font-weight: normal;
+}
+
+.about_me h4 {
+  font-family: "Tapestry", cursive !important;
+  font-weight: normal;
+  color: #4b4c5f;
+}
+.about_me span, .about_me p, .about_me ul {
+  font-family: "Crimson Text", serif !important;
+  color: #4b4c5f;
+}
+
+.portfolio .v-btn, .portfolio a {
+  font-family: "Tapestry", cursive;
+  color: #4f55f5;
+}
+.portfolio .v-card-title {
+  font-family: "Tapestry", cursive;
+}
+.portfolio .v-card-subtitle {
+  font-family: "Crimson Text", serif !important;
+  color: #4f55f5;
+}
+.portfolio .v-card-text .title-portfolio {
+  font-family: "Tapestry", cursive !important;
+  color: #4b4c5f;
+}
+.portfolio .v-card-text .text-portfolio {
+  font-family: "Crimson Text", serif;
+  color: #4b4c5f;
+}
+.portfolio .v-card-actions {
+  color: #4f55f5;
+}
+
+.contacts p {
+  font-family: "Tapestry", cursive !important;
+  color: #4b4c5f;
+}
+
+/*# sourceMappingURL=main.css.map */
