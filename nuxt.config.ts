@@ -35,5 +35,8 @@ export default defineNuxtConfig({
         routes: [
             '/portfolio/:id'
         ]
-    }
+    },
+    modules: [
+        '@nuxt/content'
+    ]
 })

@@ -64,6 +64,7 @@
   .v-btn__content, a {
     color: $grey_color;
     font-size: $font-size-text * 0.8;
+    font-family: $fontTapestry !important;
   }
 
   .v-btn {
@@ -158,5 +159,69 @@
   font-family: $fontTapestry !important;
   color: $grey_color;
 }
+
+// Portfolio Case
+
+.card-portfolio-header {
+  //background: $background !important;
+
+  .project_title {
+    font-family: $fontTapestry;
+    font-weight: normal;
+    color: $deep_blue_color;
+  }
+}
+
+.content_portfolio {
+  h1 {
+    font-family: $fontNiconne;
+    font-weight: normal;
+  }
+
+  p {
+    font-family: $fontCrimson;
+  }
+}
+
+.exists:hover {
+  cursor: pointer;
+}
+
+.doesnt_exist:hover {
+  cursor: not-allowed;
+}
+
+
+// Error Page
+
+.error {
+  position: relative;
+  height: 50vh;
+
+  div {
+    position: absolute;
+    top: 30%;
+    bottom: 40%;
+    left: 30%;
+    right: 30%;
+  }
+
+  h1 {
+    font-family: $fontTapestry !important;
+    color: $deep_blue_color;
+    font-weight: normal;
+  }
+
+  h3 {
+    font-family: $fontNiconne !important;
+    color: $grey_color;
+    font-weight: normal;
+  }
+
+  .button:hover {
+    cursor: pointer;
+  }
+}
+
 
 

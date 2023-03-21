@@ -15,20 +15,6 @@
   </v-card>
   <v-container>
     <div>
-<!--      <NuxtLink to="/" class="text-decoration-none logo-link">-->
-<!--      <div class="d-none d-sm-none d-md-flex">-->
-
-<!--          <img src="/images/logo4.png" alt="logo" style="max-height: 50px">-->
-
-<!--        <h4 class="ml-5 text-h6 mt-3">Natalia Strilchuk</h4>-->
-<!--      </div>-->
-<!--      </NuxtLink>-->
-<!--      <AppHeader class="d-none d-sm-none d-md-flex d-lg-flex" />-->
-
-
-
-
-
       <div class="d-md-none">
         <v-layout>
           <v-app-bar
@@ -95,15 +81,10 @@ body {
 
 .v-container {
   background-color: white;
-  //min-height: 80vh;
   min-width: 100%;
 }
 
 .v-navigation-drawer__scrim {
   background: none;
-}
-
-.router-link-active {
-  color: red;
 }
 </style>

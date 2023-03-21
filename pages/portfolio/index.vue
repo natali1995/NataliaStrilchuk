@@ -2,7 +2,7 @@
 <div class="content mt-md-16 mt-5">
   <h1 class="text-center title">Portfolio</h1>
   <v-card
-  max-width="1400" class="mx-auto portfolio mt-5">
+  max-width="1400" class="mx-auto portfolio mt-5" elevation="0">
     <v-tabs
         v-model="tab"
     >
@@ -17,7 +17,7 @@
         <v-container fluid>
           <v-row>
             <v-col
-                v-for="work in web_projects"
+                v-for="work in projects_software"
                 cols="12"
                 md="6"
             >
@@ -46,8 +46,8 @@
                     <NuxtLink class="text-decoration-none" :to="work.project" target="_blank"> View Case</NuxtLink>
                   </v-btn>
 
-                  <v-btn prepend-icon="mdi-github">
-                    GitHub
+                  <v-btn prepend-icon="mdi-github" v-bind:class="{'exists': work.isActive, 'doesnt_exist': !work.isActive}">
+                    <NuxtLink class="text-decoration-none" :to="work.linkGitHub" target="_blank">GitHub</NuxtLink>
                   </v-btn>
                 </v-card-actions>
               </v-card>
@@ -82,8 +82,8 @@
                 </v-card-subtitle>
 
                 <v-card-actions>
-                  <v-btn prepend-icon="mdi-instagram">
-                    Instagram
+                  <v-btn prepend-icon="mdi-instagram" v-bind:class="{'exists': work.isActive, 'doesnt_exist': !work.isActive}">
+                    <NuxtLink :to="work.linkInstagram" class="text-decoration-none" target="_blank">Instagram</NuxtLink>
                   </v-btn>
                 </v-card-actions>
               </v-card>
@@ -112,7 +112,6 @@
                     height="500"
                     cover
                 >
-                  <!--                  <v-card-title>{{ work.title }}</v-card-title>-->
                 </v-img>
 
                 <v-card-subtitle class="pt-4">
@@ -120,8 +119,8 @@
                 </v-card-subtitle>
 
                 <v-card-actions>
-                  <v-btn prepend-icon="mdi-instagram">
-                    Instagram
+                  <v-btn prepend-icon="mdi-instagram" v-bind:class="{'exists': work.isActive, 'doesnt_exist': !work.isActive}">
+                    <NuxtLink :to="work.linkInstagram" class="text-decoration-none" target="_blank">Instagram</NuxtLink>
                   </v-btn>
                 </v-card-actions>
               </v-card>
@@ -148,8 +147,8 @@
                 </v-card-subtitle>
 
                 <v-card-actions>
-                  <v-btn prepend-icon="mdi-instagram">
-                    Instagram
+                  <v-btn prepend-icon="mdi-instagram" v-bind:class="{'exists': index.isActive, 'doesnt_exist': !index.isActive}">
+                    <NuxtLink :to="index.linkInstagram" class="text-decoration-none" target="_blank">Instagram</NuxtLink>
                   </v-btn>
                 </v-card-actions>
               </v-card>
@@ -175,62 +174,24 @@
 </script>
 
 <script>
+import data from '~/assets/db.json';
 
 export default {
   name: "portfolio",
   data: () => {
     return {
       tab: null,
-      web_projects: [
-        {title: 'CyberSport', subtitle: 'Landing page', technology: 'HTML5, CSS3', link: '/images/portfolio/web/work-1.png', alt: 'work-1', project: 'https://natali1995.github.io/CyberSport/'},
-        {title: 'Africa', subtitle: 'Landing page', technology: 'HTML5, CSS3', link: '/images/portfolio/web/work-2.png', alt: 'work-2', project: 'https://natali1995.github.io/Africa/'}
-      ],
-      photoshop: [
-        {title: 'Adventure out of Earth', link: '/images/portfolio/photoshop/adventure_out_of_eatrh.png', alt: 'Adventure out of Earth'},
-        {title: 'Alice in Wonderland', link: '/images/portfolio/photoshop/alice_in_Wonderland.png', alt: 'Alice in Wonderland'},
-        {title: 'Delphine from the iphone', link: '/images/portfolio/photoshop/delfin_from_iphone.jpg', alt: 'Delphine from the iphone'},
-        {title: 'Fantasy', link: '/images/portfolio/photoshop/fantazy.jpg', alt: 'Fantasy'},
-        {title: 'Protect the environment', link: '/images/portfolio/photoshop/protect_the_environment.jpg', alt: 'Protect the environment'},
-        {title: 'Strawberry Mix', link: '/images/portfolio/photoshop/strawbery-mix.png', alt: 'Strawberry Mix'},
-        {title: 'Wonderland', link: '/images/portfolio/photoshop/wonderland.jpg', alt: 'Wonderland'}
-      ],
-      procreate: [
-        {title: 'Bubble drink', link: '/images/portfolio/procreate/bubble_drink.png', alt: 'Bubble drink'},
-        {title: 'Cute panda', link: '/images/portfolio/procreate/cute_panda.png', alt: 'Cute panda'},
-        {title: 'Donut', link: '/images/portfolio/procreate/donut.png', alt: 'Donut'},
-        {title: 'Ice cream', link: '/images/portfolio/procreate/icecreame.png', alt: 'Ice cream'},
-        {title: 'Pancakes', link: '/images/portfolio/procreate/pancakes.png', alt: 'Pancakes'},
-        {title: 'Saturn', link: '/images/portfolio/procreate/saturn.png', alt: 'Saturn'},
-        {title: 'Spider', link: '/images/portfolio/procreate/spider.png', alt: 'Spider'},
-        {title: 'Love bear', link: '/images/portfolio/procreate/love_bear.png', alt: 'Love bear'},
-        {title: 'Night sky', link: '/images/portfolio/procreate/night_sky.png', alt: 'Night sky'},
-        {title: 'Ghost dog', link: 'images/portfolio/procreate/ghost_dog.png', alt: 'Ghost dog'},
-        {title: 'Butterfly', link: '/images/portfolio/procreate/batterfly.png', alt: 'Butterfly'},
-        {title: 'Black cat', link: '/images/portfolio/procreate/black_cat.png', alt: 'Black cat'},
-        {title: 'Gold fish', link: '/images/portfolio/procreate/gold_fish.png', alt: 'Gold fish'},
-        {title: 'Kitten in the egg', link: '/images/portfolio/procreate/kitten_in_the_egg.png', alt: 'Kitten in the egg'},
-        {title: 'Best friend', link: '/images/portfolio/procreate/man_best_friend.png', alt: 'Best friend'},
-        {title: 'Toucan', link: '/images/portfolio/procreate/toucan.png', alt: 'Toucan'}
-      ],
-      carousel: {
-        1: {
-          title: 'Evil Good Octopus',
-          attribute: [
-            {link: '/images/portfolio/procreate/good-evil_octopus-carousel.png', alt: 'Evil Good Octopus'},
-            {link: '/images/portfolio/procreate/evil_octopus-carousel1.png', alt: 'Evil Octopus'},
-            {link: '/images/portfolio/procreate/good_octopus-carousel2.png', alt: 'Good Octopus'}
-          ]
-        },
-        2: {
-          title: 'Evil Good Pumpkin',
-          attribute: [
-            {link: '/images/portfolio/procreate/good-evil_pumpkin-carousel.png', alt: 'Evil Good Pumpkin'},
-            {link: '/images/portfolio/procreate/evil_pumpkin-carousel1.png', alt: 'Evil Pumpkin'},
-            {link: '/images/portfolio/procreate/good_pumpkin-carousel2.png', alt: 'Good Pumpkin'}
-          ]
-        }
-      }
+      projects_software: [],
+      photoshop: [],
+      procreate: [],
+      carousel: []
     }
+  },
+  async created() {
+    this.projects_software = data.projects_software;
+    this.photoshop = data.photoshop;
+    this.procreate = data.procreate;
+    this.carousel = data.carousel;
   }
 }
 </script>

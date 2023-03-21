@@ -54,6 +54,7 @@
 .buttons .v-btn__content, .buttons a {
   color: #4b4c5f;
   font-size: 0.96rem;
+  font-family: "Tapestry", cursive !important;
 }
 .buttons .v-btn {
   background: linear-gradient(to left, #4f55f5, rgba(102, 199, 229, 0.46)) !important;
@@ -123,6 +124,53 @@
 .contacts p {
   font-family: "Tapestry", cursive !important;
   color: #4b4c5f;
+}
+
+.card-portfolio-header .project_title {
+  font-family: "Tapestry", cursive;
+  font-weight: normal;
+  color: #4f55f5;
+}
+
+.content_portfolio h1 {
+  font-family: "Niconne", cursive;
+  font-weight: normal;
+}
+.content_portfolio p {
+  font-family: "Crimson Text", serif;
+}
+
+.exists:hover {
+  cursor: pointer;
+}
+
+.doesnt_exist:hover {
+  cursor: not-allowed;
+}
+
+.error {
+  position: relative;
+  height: 50vh;
+}
+.error div {
+  position: absolute;
+  top: 30%;
+  bottom: 40%;
+  left: 30%;
+  right: 30%;
+}
+.error h1 {
+  font-family: "Tapestry", cursive !important;
+  color: #4f55f5;
+  font-weight: normal;
+}
+.error h3 {
+  font-family: "Niconne", cursive !important;
+  color: #4b4c5f;
+  font-weight: normal;
+}
+.error .button:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */
