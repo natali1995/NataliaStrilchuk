@@ -46,6 +46,11 @@
   color: #4b4c5f;
 }
 
+.introduction span {
+  font-family: "Crimson Text", serif !important;
+  color: #4b4c5f;
+}
+
 .mdi-cloud-download {
   color: #4b4c5f;
   font-size: 1.5rem;
@@ -87,6 +92,10 @@
   color: #4b4c5f;
   font-weight: normal;
 }
+.skills p {
+  font-family: "Crimson Text", serif !important;
+  color: #4b4c5f;
+}
 
 .about_me h4 {
   font-family: "Tapestry", cursive !important;
@@ -120,9 +129,17 @@
 .portfolio .v-card-actions {
   color: #4f55f5;
 }
+.portfolio p {
+  font-family: "Crimson Text", serif !important;
+  color: #4b4c5f;
+}
 
-.contacts p {
+.contacts h6 {
   font-family: "Tapestry", cursive !important;
+  color: #4b4c5f;
+}
+.contacts p {
+  font-family: "Crimson Text", serif !important;
   color: #4b4c5f;
 }
 
@@ -137,7 +154,8 @@
   font-weight: normal;
 }
 .content_portfolio p {
-  font-family: "Crimson Text", serif;
+  font-family: "Crimson Text", serif !important;
+  color: #4b4c5f;
 }
 
 .exists:hover {
@@ -171,6 +189,40 @@
 }
 .error .button:hover {
   cursor: pointer;
+}
+
+.cookie-notification {
+  position: fixed !important;
+  bottom: 0 !important;
+  right: 0;
+  width: 100%;
+  background-color: #4b4c5f !important;
+  color: #fff !important;
+  padding: 16px !important;
+  z-index: 9999 !important;
+}
+
+.cookie-notification__heading {
+  color: #66c7e5;
+}
+
+.cookie-notification__content {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+.cookie-notification__content .v-btn {
+  border: 2px solid #66c7e5;
+}
+
+.cookie-notification__message {
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+}
+
+.cookie-notification__button {
+  background: none !important;
+  color: #66c7e5 !important;
 }
 
 /*# sourceMappingURL=main.css.map */

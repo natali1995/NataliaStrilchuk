@@ -55,6 +55,13 @@
   color: $grey_color;
 }
 
+.introduction {
+  span {
+    font-family: $fontCrimson !important;
+    color: $grey_color;
+  }
+}
+
 .mdi-cloud-download {
   color: $grey_color;
   font-size: $font-size-menu;
@@ -105,6 +112,11 @@
     color: $grey_color;
     font-weight: normal;
   }
+
+  p {
+    font-family: $fontCrimson !important;
+    color: $grey_color;
+  }
 }
 
 // About Me Page
@@ -152,12 +164,24 @@
   .v-card-actions {
     color: $deep-blue_color;
   }
+
+  p {
+    font-family: $fontCrimson !important;
+    color: $grey_color;
+  }
 }
 
 // Contacts Page
-.contacts p {
-  font-family: $fontTapestry !important;
-  color: $grey_color;
+.contacts {
+  h6 {
+    font-family: $fontTapestry !important;
+    color: $grey_color;
+  }
+
+  p {
+    font-family: $fontCrimson !important;
+    color: $grey_color;
+  }
 }
 
 // Portfolio Case
@@ -179,7 +203,8 @@
   }
 
   p {
-    font-family: $fontCrimson;
+    font-family: $fontCrimson !important;
+    color: $grey_color;
   }
 }
 
@@ -222,6 +247,45 @@
     cursor: pointer;
   }
 }
+
+// Cookie Notification Bar
+
+.cookie-notification {
+  position: fixed !important;
+  bottom: 0 !important;
+  right: 0;
+  width: 100%;
+  background-color: $grey_color !important;
+  color: #fff !important;
+  padding: 16px !important;
+  z-index: 9999 !important;
+}
+
+.cookie-notification__heading {
+  color: $blue_color;
+}
+
+.cookie-notification__content {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+
+  .v-btn {
+    border: 2px solid $blue_color;
+  }
+}
+
+.cookie-notification__message {
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+}
+
+.cookie-notification__button {
+  background: none !important;
+  color: $blue_color !important;
+}
+
+
 
 
 

@@ -20,9 +20,10 @@
       >
         <div class="introduction mt-md-16 pt-md-10 my-auto text-md-start text-center">
           <p class="text-lg-h3 text-md-h4 text-h5">Hello!</p>
-          <div class="pt-10 text-lg-h2 text-md-h3 text-h5">I’m Natalia Strilchuk</div>
-          <p class="pt-10 text-lg-h3 text-md-h4 text-h5">Junior Frontend Developer</p>
-          <div class="buttons mt-16">
+          <div class="pt-md-10 pt-4 text-lg-h2 text-md-h3 text-h5">I’m Natalia Strilchuk</div>
+          <p class="pt-md-10 pt-4 text-lg-h3 text-md-h4 text-h5">Frontend Developer</p>
+          <span>with a passion for crafting visually stunning user interfaces. Let's make something amazing together that truly stands out!</span>
+          <div class="buttons mt-md-16 mt-8">
             <a href="/cv/CV_Natalia_Strilchuk.pdf" class="text-decoration-none" download>
               <v-btn
                   :loading="loading[1]"
@@ -41,13 +42,15 @@
       </v-col>
     </v-row>
 
-    <div class="v-container text-center mt-16 hero-text text-md-h6 text-subtitle-1">
-      <p>Hello everyone!</p>
-      <p>I am a junior front-end developer from Lisbon.</p>
-      <p>I have started studying Web Development since 2020 and acquired several skills, such as HTML/CSS, JavaScript, jQuery, Bootstrap, Sass and Vue.js.</p>
-      <p>Now I keep learning to gain new skills and to grow as highly qualified professional.</p>
-      <p>I worked on several home projects like landing pages, games (Tic Tac Toe, Checkers) and messengers & apps (Trello, Telegram Bot).</p>
-    </div>
+    <v-card class="mt-md-16 mt-10 mr-md-10 hero-text text-md-h6 text-subtitle-1 mx-auto" max-width="1000" elevation="0">
+      <p>Welcome to my personal website! <br> I am an aspiring frontend developer who has recently embarked on a
+        journey to pursue my passion for web development. With a passion for design and a deep understanding of
+        front-end development technologies, I am dedicated to delivering top-notch solutions that meet the needs of
+        businesses and individuals alike. <br> I have honed my skills through personal projects and online courses in HTML,
+        CSS, JavaScript, and front-end frameworks and libraries such as Bootstrap and Vue, and I am continually expanding my
+        knowledge to stay on top of the latest industry trends. <br> If you are looking for a dedicated and hardworking
+        frontend developer to bring your vision to life, I would be honored to work with you. Thank you for visiting my site, and I look forward to hearing from you soon!</p>
+    </v-card>
   </v-card>
 
 </div>

@@ -5,8 +5,23 @@
       "title": "Cyber Sport",
       "hero_img": "/images/portfolio/web/work1/case-home1.png",
       "alt_hero_img": "Hero image",
-      "text": "Hello everyone! I am a junior front-end developer from Lisbon. I have started studying Web Development since 2020 and acquired several skills, such as HTML/CSS, JavaScript, jQuery, Bootstrap, Sass and Vue.js. Now I keep learning to gain new skills and to grow as highly qualified professional.",
-      "text_continue": "I worked on several home projects like landing pages, games (Tic Tac Toe, Checkers) and messengers & apps (Trello, Telegram Bot). Hello everyone! I am a junior front-end developer from Lisbon. I have started studying Web Development since 2020 and acquired several skills, such as HTML/CSS, JavaScript, jQuery, Bootstrap, Sass and Vue.js. Now I keep learning to gain new skills and to grow as highly qualified professional.",
+      "texts": [
+        {
+          "text": "Welcome to \"CyberSport\" - a study project that explores the world of eSports through the creation of a landing page using HTML and CSS technologies."
+        },
+        {
+          "text": "The goal of this project was to gain practical experience in web development by creating a responsive and visually appealing landing page that showcases the excitement and competitive nature of the eSports industry."
+        },
+        {
+          "text": "The landing page design features a modern and high-tech look, with sections highlighting the organization's key players, upcoming events, and ways to get involved. It also includes a brief introduction to the world of eSports and its growing popularity among gamers and enthusiasts alike."
+        },
+        {
+          "text": "Through this project, we were able to explore the fundamentals of HTML and CSS, such as creating page layouts, adding multimedia elements, and optimizing for different screen sizes. We also learned the importance of user experience and the role that design plays in creating an engaging and intuitive web page."
+        },
+        {
+          "text": "We hope you enjoy exploring the \"CyberSport\" landing page and learning more about this dynamic and exciting industry. Thank you for visiting!"
+        }
+      ],
       "isActive": false,
       "work": [
         {
@@ -36,8 +51,26 @@
       "title": "Lovely Pets",
       "hero_img": "/images/portfolio/web/work2/case-home1.png",
       "alt_hero_img": "Hero image",
-      "text": "Hello everyone! I am a junior front-end developer from Lisbon. I have started studying Web Development since 2020 and acquired several skills, such as HTML/CSS, JavaScript, jQuery, Bootstrap, Sass and Vue.js. Now I keep learning to gain new skills and to grow as highly qualified professional.",
-      "text_continue": "I worked on several home projects like landing pages, games (Tic Tac Toe, Checkers) and messengers & apps (Trello, Telegram Bot). Hello everyone! I am a junior front-end developer from Lisbon. I have started studying Web Development since 2020 and acquired several skills, such as HTML/CSS, JavaScript, jQuery, Bootstrap, Sass and Vue.js. Now I keep learning to gain new skills and to grow as highly qualified professional.",
+      "texts": [
+        {
+          "text": "Welcome to LovelyPets - a study project dedicated to creating a website for dog lovers using HTML and CSS technologies. Our team's goal was to build a visually appealing and informative website that provides a one-stop-shop for everything related to dogs."
+        },
+        {
+          "text": "Our website features a modern and clean design, with sections dedicated to dog breeds, training, health, and more. We provide a wealth of information on different dog breeds, their temperament, and history, as well as advice on training, nutrition, and health care."
+        },
+        {
+          "text": "Through the development process, we focused on creating a responsive design that is optimized for all devices, ensuring that users can access our content from anywhere. We also prioritized user experience, implementing intuitive navigation and clean layouts to make it easy for visitors to find what they're looking for."
+        },
+        {
+          "text": "In addition to information, we offer a range of services for dog owners, including dog grooming, walking, and training services, all provided by experienced and certified professionals."
+        },
+        {
+          "text": "This study project allowed us to gain practical experience in web development, from creating a layout to adding multimedia elements and optimizing for different screen sizes. We hope that our website will serve as a valuable resource for dog lovers everywhere."
+        },
+        {
+          "text": "Thank you for visiting LovelyPets, and we appreciate your support!"
+        }
+      ],
       "isActive": true,
       "work": [
         {

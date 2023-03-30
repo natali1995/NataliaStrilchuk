@@ -1,7 +1,16 @@
 <template>
 <div class="content mt-md-16 mt-5 skills">
   <v-card class="mx-auto" max-width="1500" elevation="0">
-      <h1 class="text-center title">My Skills</h1>
+      <h1 class="text-center title">Expertise and Knowledge</h1>
+    <v-card elevation="0" max-width="1200" class="mx-auto mt-md-16 mt-5">
+      <p class="text-md-h6 text-body-1">Thanks for stopping by my skills page! I'm a frontend developer with a love for all things tech and design.
+        My skillset includes expertise in HTML, CSS, JavaScript, and front-end frameworks such as Nuxt and Vue, as well
+        as experience using design tools such as Adobe Photoshop, Figma, Adobe XD, and Procreate.</p>
+      <p class="mt-5 text-md-h6 text-body-1">My goal is to create websites that are not only aesthetically pleasing but also highly functional and easy to
+        use. With my dedication to staying up to date with the latest industry trends and technologies, I am always
+        seeking new ways to improve the apps I create. Please check out the icons below to learn more about my experience and skillset.</p>
+    </v-card>
+
       <div class="tech_skills mt-16">
         <h2 class="subtitle text-center text-md-start">Technical Skills</h2>
         <div class="d-inline-flex mt-10"
@@ -99,38 +108,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss" scoped>
-@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
-$body-font-family: 'Niconne', cursive;
-
-//.title {
-//  font-family: $body-font-family;
-//  color: #4b4c5f;
-//  font-size: 2rem;
-//  font-weight: normal;
-//}
-//
-//.subtitle {
-//  font-family: 'Tapestry', cursive;
-//  color: #4f55f5;
-//  font-size: 1.8rem;
-//  font-weight: normal;
-//}
-//
-//h4, h6 {
-//  font-family: 'Tapestry', cursive;
-//  color: #4b4c5f;
-//  font-weight: normal;
-//}
-//
-//h4 {
-//  font-size: 1.5rem;
-//}
-//
-//h6 {
-//  font-size: 1.2rem;
-//}
-
-</style>

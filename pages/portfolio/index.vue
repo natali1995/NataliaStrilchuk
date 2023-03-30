@@ -1,8 +1,13 @@
 <template>
 <div class="content mt-md-16 mt-5">
-  <h1 class="text-center title">Portfolio</h1>
+  <h1 class="text-center title">Gallery of work</h1>
   <v-card
-  max-width="1400" class="mx-auto portfolio mt-5" elevation="0">
+  max-width="1400" class="mx-auto portfolio mt-md-16 mt-5" elevation="0">
+    <p class="mb-10 text-md-h6 text-subtitle-1">Thanks for stopping by my portfolio page!  I am a frontend developer who is passionate about creating websites
+      and applications that are both functional and visually stunning. With a focus on user experience design and
+      responsive development, I am able to deliver results that exceed expectations. On this page, you will find
+      examples of my work. I am always looking for new challenges and opportunities to learn, and I am committed to
+      staying up-to-date with the latest technologies and design trends.</p>
     <v-tabs
         v-model="tab"
     >

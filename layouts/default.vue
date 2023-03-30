@@ -53,6 +53,7 @@
       </v-layout>
 
     </div>
+    <CookieNotification />
   </v-container>
   <AppFooter />
 </template>
@@ -60,10 +61,11 @@
 <script>
 import AppHeader from "../components/AppHeader";
 import AppFooter from "../components/AppFooter";
+import CookieNotification from "../components/CookieNotification";
 
 export default {
   name: "default",
-  components: {AppFooter, AppHeader},
+  components: {CookieNotification, AppFooter, AppHeader},
   data() {
     return {
       drawer: false
