@@ -1,4 +1,180 @@
 {
+  "contacts": [
+    {
+      "logo": "/images/icon-gmail.svg",
+      "alt": "icon-gmail",
+      "text": "strilchuk.natalie@gmail.com"
+    },
+    {
+      "logo": "/images/icon-telegram.svg",
+      "alt": "icon-telegram",
+      "text": "@NatalieTails"
+    },
+    {
+      "logo": "/images/icon-skype.svg",
+      "alt": "icon-skype",
+      "text": "Natalia Strilchuk or live:.cid.8ecda9d212d1f7b7"
+    },
+    {
+      "logo": "/images/icon-linkedin.svg",
+      "alt": "icon-linkedin",
+      "text": "www.linkedin.com/in/nataliastrilchuk"
+    }
+  ],
+  "techSkills": [
+    {
+      "title": "html",
+      "link": "/images/icon-html.svg",
+      "heading": "HTML5",
+      "level": "Advanced"
+    },
+    {
+      "title": "css",
+      "link": "/images/icon-css.svg",
+      "heading": "CSS3",
+      "level": "Advanced"
+    },
+    {
+      "title": "js",
+      "link": "/images/icon-js.svg",
+      "heading": "JavaScript",
+      "level": "Intermediate"
+    },
+    {
+      "title": "jquery",
+      "link": "/images/icon-jquery.svg",
+      "heading": "jQuery",
+      "level": "Intermediate"
+    },
+    {
+      "title": "p5js",
+      "link": "/images/icon-p5js.svg",
+      "heading": "p5.js",
+      "level": "Novice"
+    },
+    {
+      "title": "bootstrap",
+      "link": "/images/icon-bootstrap.svg",
+      "heading": "Bootstrap",
+      "level": "Intermediate"
+    },
+    {
+      "title": "sass",
+      "link": "/images/icon-sass.svg",
+      "heading": "Sass",
+      "level": "Novice"
+    },
+    {
+      "title": "github",
+      "link": "/images/icon-github.svg",
+      "heading": "GitHub",
+      "level": "Intermediate"
+    },
+    {
+      "title": "vue",
+      "link": "/images/icon-vue.svg",
+      "heading": "Vue 3",
+      "level": "Novice"
+    }
+  ],
+  "programs": [
+    {
+      "title": "photoshop",
+      "link": "/images/icon-photoshop.svg",
+      "heading": "Adobe Photoshop",
+      "level": "Advanced"
+    },
+    {
+      "title": "figma",
+      "link": "/images/icon-figma.svg",
+      "heading": "Figma",
+      "level": "Intermediate"
+    },
+    {
+      "title": "xd",
+      "link": "/images/icon-xd.svg",
+      "heading": "Adobe XD",
+      "level": "Novice"
+    },
+    {
+      "title": "procreate",
+      "link": "/images/icon-procreate.svg",
+      "heading": "Procreate",
+      "level": "Intermediate"
+    }
+  ],
+  "languages": [
+    {
+      "title": "english",
+      "link": "/images/icon-english.svg",
+      "heading": "English - Intermediate - UpperIntermidiate (B1 - B2)"
+    },
+    {
+      "title": "russian",
+      "link": "/images/icon-russian.svg",
+      "heading": "Russian - Fluent/Native (C2)"
+    },
+    {
+      "title": "portuguese",
+      "link": "/images/icon-portuguese.svg",
+      "heading": "Portuguese - Beginner (A1)"
+    }
+  ],
+  "educations": [
+    {
+      "name": "Moscow State University",
+      "date": "Sep 2017 - Jun 2019",
+      "degree": "Master’s degree in Geochemistry",
+      "link": "/images/logo-msu.svg",
+      "alt": "msu"
+    },
+    {
+      "name": "Moscow State University",
+      "date": "Sep 2013 - Jun 2017",
+      "degree": "Bachelor’s degree in Geochemistry",
+      "link": "/images/logo-msu.svg",
+      "alt": "msu"
+    }
+  ],
+  "experiences": [
+    {
+      "profession": "Frontend Developer (Student)",
+      "date": "2020 - Present",
+      "mainWorkTitle": "Worked on home pet-projects:",
+      "workList": [
+        {"item": "Landing pages"},
+        {"item": "Games (Tic Tac Toe, Checkers, Platform Game)"},
+        {"item": "Messengers & Apps (Trello, Telegram Bot)"}
+      ],
+      "mainTechnologyTitle": "Technology:",
+      "technologyList": [
+        {"item": "Web page layout(HTML/CSS)"},
+        {"item": "Design Web Page(Figma)"},
+        {"item": "JavaScript: jQuery, p5.js, Vue.js"},
+        {"item": "Web-technologies: HTTP-methods, REST-API"}
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "school": "Vue Mastery",
+      "date": "Aug 2022 - January 2023",
+      "course_name": "Vue Courses",
+      "link": "/images/logo-vue.svg"
+    },
+    {
+      "school": "GeekBrains",
+      "date": "May 2020",
+      "course_name": "HTML & CSS",
+      "link": "/images/logo-geekbrains.svg"
+    },
+    {
+      "school": "Stepik",
+      "date": "Aug 2020",
+      "course_name": "JavaScript for beginners",
+      "link": "/images/logo-stepik.svg"
+    }
+  ],
   "web_projects": [
     {
       "id_case": "1",
@@ -71,7 +247,7 @@
           "text": "Thank you for visiting LovelyPets, and we appreciate your support!"
         }
       ],
-      "isActive": true,
+      "isActive": false,
       "work": [
         {
           "id_image": "1",

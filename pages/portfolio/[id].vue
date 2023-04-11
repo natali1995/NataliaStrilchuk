@@ -36,7 +36,7 @@
                 <v-spacer></v-spacer>
 
                 <v-btn v-bind:class="{'exists': project.isActive, 'doesnt_exist': !project.isActive}" prepend-icon="mdi-github">
-                  GitHub
+                  <NuxtLink class="text-decoration-none" :to="project.linkGitHub" target="_blank">GitHub</NuxtLink>
                 </v-btn>
               </v-toolbar>
             </div>
@@ -71,10 +71,15 @@ import data from '~/assets/db.json';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {createError} from "nuxt/app";
-
+import {useHead} from "nuxt/app";
 
 export default {
   name: "[id]",
+  setup() {
+    useHead({
+      title: 'Natalia Strilchuk | Work'
+    })
+  },
   data() {
     return {
       web_projects: [],

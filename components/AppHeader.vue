@@ -34,10 +34,10 @@
   <div class="d-md-none">
       <v-list nav>
         <v-list-item to="/" title="Welcome" value="welcome"></v-list-item>
-        <v-list-item to="skills" title="Skills" value="skills"></v-list-item>
-        <v-list-item to="about-me" title="My Story" value="my_story"></v-list-item>
-        <v-list-item to="portfolio" title="Gallery" value="gallery"></v-list-item>
-        <v-list-item to="contacts" title="Reach Out" value="reach_out"></v-list-item>
+        <v-list-item to="/skills" title="Skills" value="skills"></v-list-item>
+        <v-list-item to="/about-me" title="My Story" value="my_story"></v-list-item>
+        <v-list-item to="/portfolio" title="Gallery" value="gallery"></v-list-item>
+        <v-list-item to="/contacts" title="Reach Out" value="reach_out"></v-list-item>
       </v-list>
   </div>
 </template>
