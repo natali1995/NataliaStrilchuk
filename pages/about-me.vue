@@ -20,7 +20,7 @@
           or just to learn more about me, I'm glad you're here!</p>
       </v-col>
       <v-col md="6" cols="12">
-        <v-img src="/images/about-me_photo.JPG" alt="photo-about" max-height="600" class="mx-auto my-auto mt-md-5"></v-img>
+        <v-img src="/images/about-me_photo.png" alt="photo-about" max-height="600" class="mx-auto my-auto mt-md-5"></v-img>
       </v-col>
     </v-row>
 
