@@ -288,22 +288,16 @@
       "alt_hero_img": "Hero image",
       "texts": [
         {
-          "text": "Welcome to LovelyPets - a study project dedicated to creating a website for dog lovers using HTML and CSS technologies. Our team's goal was to build a visually appealing and informative website that provides a one-stop-shop for everything related to dogs."
+          "text": "Welcome to SecureKey - a cutting-edge study project centered around creating a robust and user-friendly password management application. In today's digital age, maintaining strong and unique passwords for various online accounts is crucial for safeguarding personal information. With SecureKey, we aim to simplify this process while enhancing the security of users' digital lives."
         },
         {
-          "text": "Our website features a modern and clean design, with sections dedicated to dog breeds, training, health, and more. We provide a wealth of information on different dog breeds, their temperament, and history, as well as advice on training, nutrition, and health care."
+          "text": "Our user-friendly interface guarantees ease of use, enabling users to effortlessly manage, update, and organize their passwords. To encourage best practices, SecurePass incorporates a powerful password generator that creates complex and unique passwords tailored to each online account's specific requirements."
         },
         {
-          "text": "Through the development process, we focused on creating a responsive design that is optimized for all devices, ensuring that users can access our content from anywhere. We also prioritized user experience, implementing intuitive navigation and clean layouts to make it easy for visitors to find what they're looking for."
+          "text": "While this is a study project, we prioritize cross-platform compatibility, allowing users to access their password vault seamlessly across various devices. By providing a responsive design, we ensure that SecureKey remains accessible on smartphones, tablets, and computers alike."
         },
         {
-          "text": "In addition to information, we offer a range of services for dog owners, including dog grooming, walking, and training services, all provided by experienced and certified professionals."
-        },
-        {
-          "text": "This study project allowed us to gain practical experience in web development, from creating a layout to adding multimedia elements and optimizing for different screen sizes. We hope that our website will serve as a valuable resource for dog lovers everywhere."
-        },
-        {
-          "text": "Thank you for visiting LovelyPets, and we appreciate your support!"
+          "text": "Thank you for joining us on this mission to revolutionize password management and protect our digital identities with SecureKey."
         }
       ],
       "isActive": false,
