@@ -6,13 +6,13 @@
         <div v-if="$route.params.id === project.id_case">
 
           <v-card class="mx-auto card-portfolio-header mt-5" elevation="0">
-            <h1 class="mb-5 mt-md-16 text-center project_title">{{project.title}}</h1>
+            <h1 class="mb-5 mt-md-16 text-center project__title">{{project.title}}</h1>
             <v-card class="d-flex align-center justify-center mx-auto" max-width="1000" elevation="0">
               <img :src="project.hero_img" :alt="project.alt_hero_img" class="w-100">
             </v-card>
           </v-card>
 
-          <v-card class="mx-auto mb-16 content_portfolio" elevation="0" max-width="1500">
+          <v-card class="mx-auto mb-16 content__portfolio" elevation="0" max-width="1500">
 
             <h1 class="text-center mt-10">About Project</h1>
             <v-card class="mx-auto mb-16 mt-5" max-width="800" elevation="0">

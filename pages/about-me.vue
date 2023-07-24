@@ -1,5 +1,5 @@
 <template>
-<div class="content mt-md-16 mt-5 about_me">
+<div class="content mt-md-16 mt-5 about__me">
   <h1 class="text-center title">Meet the Person</h1>
   <v-card max-width="1300" class="mx-auto mt-md-16 mt-5" elevation="0">
     <v-row class="d-flex">

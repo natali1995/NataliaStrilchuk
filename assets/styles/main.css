@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Tapestry&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Niconne&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
+@import 'https://fonts.googleapis.com/css2?family=Tapestry&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Niconne&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap';
 .menu-btn {
-  color: #66c7e5;
+  color: #66C7E5;
   font-family: "Tapestry", cursive;
 }
 .menu-btn .v-btn {
@@ -33,7 +33,7 @@
 }
 
 .footer {
-  background: linear-gradient(to left, #4f55f5, rgba(102, 199, 229, 0.46)) !important;
+  background: linear-gradient(to left, #4f55f5, #66C7E5) !important;
 }
 
 .introduction div {
@@ -62,7 +62,7 @@
   font-family: "Tapestry", cursive !important;
 }
 .buttons .v-btn {
-  background: linear-gradient(to left, #4f55f5, rgba(102, 199, 229, 0.46)) !important;
+  background: linear-gradient(to left, #4f55f5, #66C7E5) !important;
 }
 .buttons .v-btn.v-btn--density-default {
   height: 50px;
@@ -97,12 +97,12 @@
   color: #4b4c5f;
 }
 
-.about_me h4 {
+.about__me h4 {
   font-family: "Tapestry", cursive !important;
   font-weight: normal;
   color: #4b4c5f;
 }
-.about_me span, .about_me p, .about_me ul {
+.about__me span, .about__me p, .about__me ul {
   font-family: "Crimson Text", serif !important;
   color: #4b4c5f;
 }
@@ -143,17 +143,17 @@
   color: #4b4c5f;
 }
 
-.card-portfolio-header .project_title {
+.card-portfolio-header .project__title {
   font-family: "Tapestry", cursive;
   font-weight: normal;
   color: #4f55f5;
 }
 
-.content_portfolio h1 {
+.content__portfolio h1 {
   font-family: "Niconne", cursive;
   font-weight: normal;
 }
-.content_portfolio p {
+.content__portfolio p {
   font-family: "Crimson Text", serif !important;
   color: #4b4c5f;
 }
@@ -162,7 +162,7 @@
   cursor: pointer;
 }
 
-.doesnt_exist:hover {
+.doesnt__exist:hover {
   cursor: not-allowed;
 }
 
@@ -172,10 +172,7 @@
 }
 .error div {
   position: absolute;
-  top: 30%;
-  bottom: 40%;
-  left: 30%;
-  right: 30%;
+  inset: 30% 30% 40%;
 }
 .error h1 {
   font-family: "Tapestry", cursive !important;
@@ -203,7 +200,7 @@
 }
 
 .cookie-notification__heading {
-  color: #66c7e5;
+  color: #66C7E5;
 }
 
 .cookie-notification__content {
@@ -212,7 +209,7 @@
   align-items: center !important;
 }
 .cookie-notification__content .v-btn {
-  border: 2px solid #66c7e5;
+  border: 2px solid #66C7E5;
 }
 
 .cookie-notification__message {
@@ -222,7 +219,7 @@
 
 .cookie-notification__button {
   background: none !important;
-  color: #66c7e5 !important;
+  color: #66C7E5 !important;
 }
 
 /*# sourceMappingURL=main.css.map */

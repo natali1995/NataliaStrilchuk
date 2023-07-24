@@ -377,13 +377,13 @@
   "photoshop": [
     {
       "title": "Adventure out of Earth",
-      "link": "/images/portfolio/photoshop/adventure_out_of_eatrh.png",
+      "link": "/images/portfolio/photoshop/adventure_out_of_eatrh.jpg",
       "alt": "Adventure out of Earth",
       "isActive": false
     },
     {
       "title": "Alice in Wonderland",
-      "link": "/images/portfolio/photoshop/alice_in_Wonderland.png",
+      "link": "/images/portfolio/photoshop/alice_in_Wonderland.jpg",
       "alt": "Alice in Wonderland",
       "linkInstagram": "https://www.instagram.com/p/CaH8XdtoE8W/",
       "isActive": true
@@ -410,7 +410,7 @@
     },
     {
       "title": "Strawberry Mix",
-      "link": "/images/portfolio/photoshop/strawbery-mix.png",
+      "link": "/images/portfolio/photoshop/strawbery-mix.jpg",
       "alt": "Strawberry Mix",
       "linkInstagram": "https://www.instagram.com/p/CZzlUtlIFp3/",
       "isActive": true
@@ -425,102 +425,102 @@
   "procreate": [
     {
       "title": "Bubble drink",
-      "link": "/images/portfolio/procreate/bubble_drink.png",
+      "link": "/images/portfolio/procreate/bubble_drink.jpg",
       "alt": "Bubble drink",
       "isActive": false
     },
     {
       "title": "Cute panda",
-      "link": "/images/portfolio/procreate/cute_panda.png",
+      "link": "/images/portfolio/procreate/cute_panda.jpg",
       "alt": "Cute panda",
       "isActive": false
     },
     {
       "title": "Donut",
-      "link": "/images/portfolio/procreate/donut.png",
+      "link": "/images/portfolio/procreate/donut.jpg",
       "alt": "Donut",
       "isActive": false
     },
     {
       "title": "Ice cream",
-      "link": "/images/portfolio/procreate/icecreame.png",
+      "link": "/images/portfolio/procreate/icecreame.jpg",
       "alt": "Ice cream",
       "isActive": false
     },
     {
       "title": "Pancakes",
-      "link": "/images/portfolio/procreate/pancakes.png",
+      "link": "/images/portfolio/procreate/pancakes.jpg",
       "alt": "Pancakes",
       "isActive": false
     },
     {
       "title": "Saturn",
-      "link": "/images/portfolio/procreate/saturn.png",
+      "link": "/images/portfolio/procreate/saturn.jpg",
       "alt": "Saturn",
       "isActive": false
     },
     {
       "title": "Spider",
-      "link": "/images/portfolio/procreate/spider.png",
+      "link": "/images/portfolio/procreate/spider.jpg",
       "alt": "Spider",
       "linkInstagram": "https://www.instagram.com/p/CaUrAaKotah/",
       "isActive": true
     },
     {
       "title": "Love bear",
-      "link": "/images/portfolio/procreate/love_bear.png",
+      "link": "/images/portfolio/procreate/love_bear.jpg",
       "alt": "Love bear",
       "isActive": false
     },
     {
       "title": "Night sky",
-      "link": "/images/portfolio/procreate/night_sky.png",
+      "link": "/images/portfolio/procreate/night_sky.jpg",
       "alt": "Night sky",
       "isActive": false
     },
     {
       "title": "Ghost dog",
-      "link": "images/portfolio/procreate/ghost_dog.png",
+      "link": "images/portfolio/procreate/ghost_dog.jpg",
       "alt": "Ghost dog",
       "linkInstagram": "https://www.instagram.com/p/CkJJHttI2BK/",
       "isActive": true
     },
     {
       "title": "Butterfly",
-      "link": "/images/portfolio/procreate/batterfly.png",
+      "link": "/images/portfolio/procreate/batterfly.jpg",
       "alt": "Butterfly",
       "isActive": false
     },
     {
       "title": "Black cat",
-      "link": "/images/portfolio/procreate/black_cat.png",
+      "link": "/images/portfolio/procreate/black_cat.jpg",
       "alt": "Black cat",
       "linkInstagram": "https://www.instagram.com/p/CaH_9haIr2U/",
       "isActive": true
     },
     {
       "title": "Gold fish",
-      "link": "/images/portfolio/procreate/gold_fish.png",
+      "link": "/images/portfolio/procreate/gold_fish.jpg",
       "alt": "Gold fish",
       "linkInstagram": "https://www.instagram.com/p/CaH3IzAIITo/",
       "isActive": true
     },
     {
       "title": "Kitten in the egg",
-      "link": "/images/portfolio/procreate/kitten_in_the_egg.png",
+      "link": "/images/portfolio/procreate/kitten_in_the_egg.jpg",
       "alt": "Kitten in the egg",
       "linkInstagram": "https://www.instagram.com/p/CaUrnoVoYbj/",
       "isActive": true
     },
     {
       "title": "Best friend",
-      "link": "/images/portfolio/procreate/man_best_friend.png",
+      "link": "/images/portfolio/procreate/man_best_friend.jpg",
       "alt": "Best friend",
       "isActive": false
     },
     {
       "title": "Toucan",
-      "link": "/images/portfolio/procreate/toucan.png",
+      "link": "/images/portfolio/procreate/toucan.jpg",
       "alt": "Toucan",
       "isActive": false
     }
@@ -531,15 +531,15 @@
       "isActive": false,
       "attribute": [
         {
-          "link": "/images/portfolio/procreate/good-evil_octopus-carousel.png",
+          "link": "/images/portfolio/procreate/good-evil_octopus-carousel.jpg",
           "alt": "Evil Good Octopus"
         },
         {
-          "link": "/images/portfolio/procreate/evil_octopus-carousel1.png",
+          "link": "/images/portfolio/procreate/evil_octopus-carousel1.jpg",
           "alt": "Evil Octopus"
         },
         {
-          "link": "/images/portfolio/procreate/good_octopus-carousel2.png",
+          "link": "/images/portfolio/procreate/good_octopus-carousel2.jpg",
           "alt": "Good Octopus"
         }
       ]
@@ -549,15 +549,15 @@
       "isActive": false,
       "attribute": [
         {
-          "link": "/images/portfolio/procreate/good-evil_pumpkin-carousel.png",
+          "link": "/images/portfolio/procreate/good-evil_pumpkin-carousel.jpg",
           "alt": "Evil Good Pumpkin"
         },
         {
-          "link": "/images/portfolio/procreate/evil_pumpkin-carousel1.png",
+          "link": "/images/portfolio/procreate/evil_pumpkin-carousel1.jpg",
           "alt": "Evil Pumpkin"
         },
         {
-          "link": "/images/portfolio/procreate/good_pumpkin-carousel2.png",
+          "link": "/images/portfolio/procreate/good_pumpkin-carousel2.jpg",
           "alt": "Good Pumpkin"
         }
       ]
