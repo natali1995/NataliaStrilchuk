@@ -10,13 +10,13 @@
     "stylelint": "stylelint '**/*.scss'"
   },
   "devDependencies": {
-    "@nuxt/content": "^2.5.0",
     "sass": "^1.57.1",
     "eslint": "^8.42.0",
     "stylelint": "^15.6.2",
     "stylelint-config-standard-scss": "^9.0.0"
   },
   "dependencies": {
+    "@nuxt/content": "^2.5.0",
     "@mdi/font": "^7.1.96",
     "nuxt": "^3.0.0",
     "stylelint-config-recommended-vue": "^1.4.0",
